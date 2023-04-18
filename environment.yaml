@@ -1,0 +1,30 @@
+name: doodl
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=11.3.1=h2bc3f7f_2
+  - pip=20.3.3=py38h06a4308_0
+  - pytorch=1.11.0=py3.8_cuda11.3_cudnn8.2.0_0
+  - torchvision=0.12.0=py38_cu113
+  - pip:
+    - diffusers==0.6.0
+    - einops==0.3.0
+    - huggingface-hub==0.10.1
+    - imageio==2.9.0
+    - oauthlib==3.2.2
+    - omegaconf==2.1.1
+    - open_clip_torch
+    - opencv-python==4.1.2.30
+    - opencv-python-headless==4.6.0.66
+    - pytorch-lightning==1.4.2
+    - regex==2022.9.13
+    - scikit-image==0.19.3
+    - scipy==1.9.3
+    - tokenizers==0.12.1
+    - torch-fidelity==0.3.0
+    - torchmetrics==0.11.0
+    - open_clip_torch
+    - tqdm==4.64.1
+    - transformers==4.19.2
+prefix: /opt/conda/envs/doodl
